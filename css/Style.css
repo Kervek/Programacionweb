@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+body {
+   background-color: rgb(6, 15, 141);
+  /*background-image: url('Rectangle 1.png') ;
+  background-repeat: no-repeat; 
+;
+  background-size: 95%;
+  background-position-x: center;
+  background-position-y: 2rem;*/
+  background-image: url('Rectangle 2.png') ;
+  background-repeat: no-repeat;
+  background-size: 97%;
+  background-position-x: center;
+  background-position-y: 2rem;
+  padding-top: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 3rem;
+
+}
+
+article{
+
+    
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+
+nav{ 
+  background-color: rgb(164, 226, 213);
+  padding-left: 2rem;
+
+  margin: 1rem;
+text-align: center;
+  
+}
+
+header{ 
+  color: black;
+  text-align: center;
+  background-color: cadetblue;
+  text-decoration: underline;
+  text-decoration-color:rgb(6, 15, 141);
+  font-size: 20px;
+  font-style: oblique;
+  
+  padding-bottom: 10px;
+
+
+}
+
+h2{
+  background-color: cadetblue;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: rgb(6, 15, 141);
+  padding-bottom: 10px;
+  
+}
+h3{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+section{
+  background-color: rgb(223, 224, 221);
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+ul{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  
+}
+
+p{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+li{
+list-style-type: none;
+
+}
+
+tr{
+  margin: 1rem;
+}
+td{
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.foto1{
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+ margin-left: 5rem;
+}
+
+.intro{
+  margin: 1rem;
+}
+.columna-2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr) ;
+  margin: 1rem;
+  padding: 1rem;
+}
+.columna-3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr) ;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.columna-4{
+  display: grid;
+  grid-template-columns:repeat(4,25%);
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+.menuppal{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  margin: 1rem;
+  padding: 1rem;
+  
+
+}
+
+.tabla_numbers{
+  border-style: solid;
+  border-color: rgb(0,0,0);
+}
+
+.tabla{
+  margin-left: 18rem;
+  margin-top: 1rem;
+ text-align: center;
+  border-style: solid;
+  border-color: rgb(0,0,0);
+}
+
+.estilo_letras:hover{
+  background-color: rgb(62, 65, 224);
+}
+
+.estilo_menuppal:hover{
+  background-color: rgb(125, 129, 185);
+  text-transform:uppercase;
+ 
+}
+
+button{
+  padding: 4px 6px;
+}
+
+button:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.caja{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  width: 40%;
+  margin-left: 20rem;
+  padding-top: 1rem;
+  background-color: aquamarine;
+
+}
+.caja2{
+  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 45%;
+    margin-left: 20rem;
+    padding-top: 1rem;
+    background-color: aquamarine;
+  
+  
+}
+.formulario1{
+  margin: 5px 5px;
+  padding: 3px 3px;
+  border-radius: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: center;
+  
+  
+}
+
+.formulariofondo{
+  margin: 1rem;
+  padding-top: 2rem;
+  background-color: rgb(223, 224, 221);
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.imgshop1:hover{
+ cursor: pointer;
+background: transparent ;
+opacity: 0.8;
+}
+

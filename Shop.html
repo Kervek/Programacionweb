@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header><h1>¡Shop!</h1></header> 
+    <nav ><ul class="menuppal">
+        <div class="estilo_menuppal"><li><a href="index.html"> Inicio</a></li></div>
+        <div class="estilo_menuppal"><li><a href="DatosPersonales.html"> Datos personales</a></li></div>
+        <div class="estilo_menuppal"><li><a href="Experiencia.html"> Experiencias</a></li></div>
+        <div class="estilo_menuppal"><li><a href="Curiosidades.html"> Curiosidades</a></li></div>
+        <div class="estilo_menuppal"><li><a href="SopaDeLetras.html"> Sopa de letras</a></li></div>
+        <div class="estilo_menuppal"><li><a href="Shop.html"> Shop</a></li></div>
+        <div class="estilo_menuppal"><li><a href="Consultas.html"> Consultas</a></li></div>
+    </ul></nav>
+
+    <article>
+        
+        <h2>Camisetas</h2>
+        <section class="columna-4">
+            <div>
+                <ul>
+                    <li><img  src="images\t-shirt-1710578_1280.jpg" alt="rtshirt" style="width:200px ;height: 230px" onclick="carritocompras1('Camiseta Roja',100000)" class="imgshop1"></li>
+                    <li>Camiseta Roja</li>
+                    <li>100.000 $</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><img  src="images\shirt-2650677_1280.jpg" alt="btshirt" style="width:200px ;height: 230px" onclick="carritocompras1('Camiseta Azul',110000)" class="imgshop1"></li>
+                    <li>Camiseta Azul</li>
+                    <li>110.000 $</li>
+                </ul>
+                </div>
+            <div>
+                <ul>
+                    <li><img src="images\woman-3847130_1920.jpg" alt="gtshirt" style="width:200px ;height: 230px" onclick="carritocompras1('Camiseta Verde',90000)" class="imgshop1"></li>
+                    <li>Camiseta Verde</li>
+                    <li>90.000 $</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><img  src="images\male-5869767_1920.jpg" alt="blatshirt" style="width:200px ;height: 230px" onclick="carritocompras1('Camiseta Negra',120000)" class="imgshop1"></li>
+                    <li>Camiseta Negra</li>
+                    <li>120.000 $</li>
+                </ul>
+            </div>
+            
+        
+    </section>
+    </article>
+
+    <article>
+        <h2>Jeans</h2>
+        <section class="columna-4">
+            <div>
+                <ul>
+                    <li><img  src="images\clothing-3831829_1920.jpg" alt="rjean" style="width:200px ;height: 230px" onclick="carritocompras1('Jean Rojo',150000)" class="imgshop1"></li>
+                    <li>Jean Rojo</li>
+                    <li>150.000 $</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><img  src="images\jeans-2405033_1920.jpg" alt="bjean" style="width:200px ;height: 230px" onclick="carritocompras1('Jean Azul',180000)" class="imgshop1">
+                    
+                    </li>
+                    <li>Jean Azul</li>
+                    <li>180.000 $</li>
+                </ul>
+                </div>
+            <div>
+                <ul>
+                    <li><img src="images\pants-5108675_1920.jpg" alt="gjean" style="width:200px ;height: 230px" onclick="carritocompras1('Jean Verde',100000)" class="imgshop1"></li>
+                    <li>Jean Verde</li>
+                    <li>100.000 $</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><img  src="images\shoes-2354910_1920.jpg" alt="bljean" style="width:200px ;height: 230px" onclick="carritocompras1('Jean Negro',200000)" class="imgshop1"></li>
+                    <li>Jean Negro</li>
+                    <li>200.000 $</li>
+                </ul>
+            </div>
+            
+        
+    </section>
+    </article>
+
+    <article>
+        <h2>Carrito de compras</h2>
+        
+            <section class="formulariofondo">
+            <div id="carritocompras" class="caja2" >
+            
+
+             </div>   
+             <button onclick="Validar();">Validar carrito</button>
+        </section>
+    </article>
+    <script src="js\script.js"></script>
+</body>
+</html>
