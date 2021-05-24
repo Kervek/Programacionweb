@@ -1,0 +1,8 @@
+<p>La automatizacion de la TI, tambien denominada automatizacion de la infraestructura,
+            consiste en el uso de sistemas de software para crear instrucciones y procesos 
+            repetibles a fin de reemplazar o reducir la interaccion humana con los sistemas de TI.
+             El software de automatizacion funciona dentro de los limites de esas instrucciones, 
+             herramientas y marcos para realizar las tareas con muy poca intervencion humana.</p>
+             <br> 
+                 <p>referencia: <a href=" https://www.redhat.com/es/topics/automation/whats-it-automation">https://www.redhat.com/es/topics/automation/whats-it-automation</a> </p>
+		<br>

@@ -1,0 +1,8 @@
+<p>Un desarrollador con este perfil es alguien que puede trabajar tanto en el front-end 
+           (parte frontal) como en el back-end (parte posterior) de una aplicación web, 
+           un software o un sitio web. Es decir, comprende la logica que conecta la experiencia
+            del usuario que interactua con la app o la pagina (front-end), con el manejo de las 
+            bases de datos y servidores que almacenan la informacion. </p>
+            <br> 
+                 <p>referencia: <a href="https://www.nextu.com/blog/convertirte-full-stack-developer/">https://www.nextu.com/blog/convertirte-full-stack-developer/</a> </p>
+<br>

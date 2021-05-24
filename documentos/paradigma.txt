@@ -1,0 +1,11 @@
+<p>Los principales conceptos que se atribuyen a la CI/CD son la integracion continua, 
+           la distribucion continua y la implementacion continua.
+           <br>
+           la CI/CD incorpora la automatizacion continua y el control permanente en todo el ciclo 
+           de vida de las aplicaciones, desde las etapas de integración y prueba hasta las de 
+           distribucion e implementacion. Este conjunto de practicas se conoce como "canales de 
+           CI/CD", y cuenta con el soporte de DevOps. </p>
+           <br> 
+                 <p> referencia:<a href="https://www.redhat.com/es/topics/devops/what-is-ci-cd">
+                    https://www.redhat.com/es/topics/devops/what-is-ci-cd</a></p>
+		<br>

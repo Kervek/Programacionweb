@@ -5,6 +5,44 @@
     formulariocontact.appendChild(t1);
   }
 
+ 
+
+  function traer1 (){
+    var contenido = document.querySelector("#contenido");    
+    fetch("documentos/devops.txt")
+    .then(res => res.text())
+    .then(data =>{      
+        contenido.innerHTML = data;
+    });
+  }
+  
+  function traer2 (){
+    var contenido = document.querySelector("#contenido1");    
+    fetch("documentos/paradigma.txt")
+    .then(res => res.text())
+    .then(data =>{      
+        contenido.innerHTML = data;
+    });
+  }
+  
+  function traer3 (){
+    var contenido = document.querySelector("#contenido2");    
+    fetch("documentos/automatizacion.txt")
+    .then(res => res.text())
+    .then(data =>{      
+        contenido.innerHTML = data;
+    });
+  }
+  
+  function traer4 (){
+    var contenido = document.querySelector("#contenido3");    
+    fetch("documentos/stack.txt")
+    .then(res => res.text())
+    .then(data =>{      
+        contenido.innerHTML = data;
+    });
+  }
+
 function formulario1(){
     var formulariocontact = document.getElementById("formulariocontacto");
     
